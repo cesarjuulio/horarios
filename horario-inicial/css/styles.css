@@ -1,0 +1,208 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #f2f2f2;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+nav a.active {
+    background-color: #03C03C;
+    color: white;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #006633;
+    font-family: 'Arial', sans-serif;
+    border-left: 10px solid #c7161f;
+    border-right: 10px solid #c7161f;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+#informatica {
+    color: #0d47a1;
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-left: 5px solid #1e88e5;
+    border-right: 5px solid #1e88e5;
+    font-size: 26px;
+    font-family: 'Matrix', sans-serif;
+    text-align: left;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+#informatica:hover {
+    background-color: #bbdefb;
+}
+
+#ser {
+    color: black;
+    background-color: #fdc57b;
+    padding: 15px;
+    border-left: 5px solid black;
+    border-right:  5px solid black;
+    font-size: 26px;
+    font-family: 'Matrix', sans-serif;
+    text-align: left;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#ser:hover {
+    background-color: #ff894c;
+}
+
+table {
+    width: 100%;
+    background-color: #fff;
+}
+
+th,td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #ddd;
+    color: black;
+}
+
+th {
+    background-color: #004526;
+    color: white;
+}
+
+td {
+    font-size: 14px;
+}
+
+.turno {
+    background-color: #00923f;
+    color: white;
+    text-align: center;
+}
+
+.intervalo {
+    background-color: #4D5D53;
+    color: #f4f4f4;
+}
+
+caption {
+    font-size: 24px;
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+hr {
+    height: 1px;
+    background-color: #979696;
+}
+
+.nucleo {
+    color: red;
+}
+.portugues {
+    background-color: #d5b68f;
+}
+
+.matematica {
+    background-color: #00923f;
+}
+
+.edFisica {
+    background-color: #ffa500;
+}
+
+.ingles {
+    background-color: #e75032;
+}
+
+.historia {
+    background-color: #3a68ab;
+}
+
+.fisica {
+    background-color: #818104;
+}
+
+.geografia {
+    background-color: #bdbdff;
+}
+
+.biologia {
+    background-color: #d0ffe4;
+}
+
+.sociologia {
+    background-color: #00ffff;
+}
+
+.quimica {
+    background-color: #78866b;
+}
+
+.web {
+    background-color: #ffff00;
+}
+
+.eletricidade {
+    background-color: #00ff00;
+}
+
+.eletricidadeIzadora {
+    background-color: #ff0000;
+}
+
+.meioAmbiente, .introSER {
+    background-color: #e8cf9a;
+}
+
+.hst, .metodologia {
+    background-color: #dcae73;
+}
+
+.aps, .banco, .fundInfo {
+    background-color: #ff4343;
+}
+
+.artes, .desenho {
+    background-color: #ffeaed;
+}
+
+.filosofia, .empreendedorismo {
+    background-color: #bebebe;
+}
+
+.algoritmoDiego, .pooDiego, .webDiego {
+    color: white;
+    background-color: rgb(0, 0, 84);
+}
+
+.poo, .estrutura, .topicos, .algoritmo {
+    background-color: #3c651f;
+}
+
+.infoAplicada, .redes, .fundHard, .sisOper, .seguranca {
+    background-color: #ff00d0;
+}
